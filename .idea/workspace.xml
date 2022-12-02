@@ -5,22 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2c29257-9315-4f2b-9bbd-539a233731a3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/IDay.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day1/Day1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day2/Day2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day1/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day2/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/day1/Day1Test.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/day2/Day2Test.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day2/Day2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day2/Day2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/day2/Day2Test.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/day2/Day2Test.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,17 +67,7 @@
     </key>
   </component>
   <component name="RunManager" selected="Kotlin.MainKt">
-    <configuration name="Day1Test.testGetTopThreeElves" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AdventOfCode" />
-      <option name="PACKAGE_NAME" value="day1" />
-      <option name="MAIN_CLASS_NAME" value="day1.Day1Test" />
-      <option name="METHOD_NAME" value="testGetTopThreeElves" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Day2Test.testChooseShape" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AdventOfCode" />
       <extension name="coverage">
         <pattern>
@@ -100,12 +77,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="day2" />
       <option name="MAIN_CLASS_NAME" value="day2.Day2Test" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="testChooseShape" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day2Test.testGetTotalScore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Day2Test.testGetScoreForSecondRound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AdventOfCode" />
       <extension name="coverage">
         <pattern>
@@ -115,16 +93,40 @@
       </extension>
       <option name="PACKAGE_NAME" value="day2" />
       <option name="MAIN_CLASS_NAME" value="day2.Day2Test" />
-      <option name="METHOD_NAME" value="testGetTotalScore" />
+      <option name="METHOD_NAME" value="testGetScoreForSecondRound" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="kotlin in AdventOfCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Day2Test.testGetSecondTotalScore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AdventOfCode" />
-      <option name="TEST_OBJECT" value="directory" />
-      <dir value="$PROJECT_DIR$/src/test/kotlin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day2" />
+      <option name="MAIN_CLASS_NAME" value="day2.Day2Test" />
+      <option name="METHOD_NAME" value="testGetSecondTotalScore" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day2Test.testGetTotalScoreForSecondRound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AdventOfCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day2" />
+      <option name="MAIN_CLASS_NAME" value="day2.Day2Test" />
+      <option name="METHOD_NAME" value="testGetTotalScoreForSecondRound" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -150,10 +152,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Kotlin.MainKt" />
-        <item itemvalue="JUnit.Day2Test.testGetTotalScore" />
-        <item itemvalue="JUnit.Day2Test" />
-        <item itemvalue="JUnit.kotlin in AdventOfCode" />
-        <item itemvalue="JUnit.Day1Test.testGetTopThreeElves" />
+        <item itemvalue="JUnit.Day2Test.testGetSecondTotalScore" />
+        <item itemvalue="JUnit.Day2Test.testGetTotalScoreForSecondRound" />
+        <item itemvalue="JUnit.Day2Test.testGetScoreForSecondRound" />
+        <item itemvalue="JUnit.Day2Test.testChooseShape" />
       </list>
     </recent_temporary>
   </component>
@@ -167,5 +169,16 @@
       <updated>1669987898154</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

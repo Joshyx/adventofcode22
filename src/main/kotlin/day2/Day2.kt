@@ -21,13 +21,20 @@ class Day2 : IDay {
         "C Y" to 0,
         "C Z" to 3
     )
+    // X: lose; Y: draw; Z: win
+    // A: Rock; B: Paper; C: Scissors
+    private val shapeToPlayLUT = mapOf(
+        "X" to mapOf("A" to "Z", "B" to "X", "C" to "Y"),
+        "Y" to mapOf("A" to "X", "B" to "Y", "C" to "Z"),
+        "Z" to mapOf("A" to "Y", "B" to "Z", "C" to "X")
+    )
 
     override fun getResult(): String {
         return getTotalScore(getInput()).toString()
     }
 
     override fun getSecondResult(): String {
-        TODO("Not yet implemented")
+        return getSecondTotalScore(getInput()).toString()
     }
 
     override fun getInput(): String {
@@ -55,8 +62,22 @@ class Day2 : IDay {
         return possibleScoresForShape[match.split(" ")[1]]!!
     }
 
-    fun chooseShape(match: String) {
+    fun chooseShape(match: String): String {
         val roundOutcome = match.split(" ")[1]
         val opponentShape = match.split(" ")[0]
+
+        return shapeToPlayLUT[roundOutcome]!![opponentShape]!!
+    }
+    fun getScoreForSecondRound(match: String): Int {
+        return getScoreForRound(match.substring(0, 2) + chooseShape(match))
+    }
+    fun getSecondTotalScore(input: String): Long {
+        var totalScore = 0L
+
+        for(match: String in input.split("\n")) {
+            totalScore += getScoreForSecondRound(match)
+        }
+
+        return totalScore
     }
 }

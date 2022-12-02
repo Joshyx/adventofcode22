@@ -29,6 +29,19 @@ class Day2Test {
 
     @Test
     fun testChooseShape() {
+        assertEquals("X", day2.chooseShape("A Y"))
+        assertEquals("X", day2.chooseShape("B X"))
+        assertEquals("X", day2.chooseShape("C Z"))
+    }
+    @Test
+    fun testGetScoreForSecondRound() {
+        assertEquals(4, day2.getScoreForSecondRound("A Y"))
+        assertEquals(1, day2.getScoreForSecondRound("B X"))
+        assertEquals(7, day2.getScoreForSecondRound("C Z"))
+    }
 
+    @Test
+    fun testGetSecondTotalScore() {
+        assertEquals(12, day2.getSecondTotalScore(testInput))
     }
 }
