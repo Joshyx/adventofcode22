@@ -1,8 +1,8 @@
-import day2.Day2
+import day3.Day3
 
 fun main(args: Array<String>) {
 
-    val task: IDay = Day2()
+    val task: IDay = Day3()
 
     println(task.getSecondResult())
 }
