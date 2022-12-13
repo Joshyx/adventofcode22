@@ -1,6 +1,6 @@
 import days.Day4
 
-fun main(args: Array<String>) {
+fun main() {
 
     val task: IDay = Day4()
 

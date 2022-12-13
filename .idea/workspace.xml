@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2c29257-9315-4f2b-9bbd-539a233731a3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/days/Day4.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day4/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/days/Day4Test.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day1/Day1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/days/Day1.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day2/Day2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/days/Day2.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day3/Day3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/days/Day3.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/day1/Day1Test.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/days/Day1Test.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/day2/Day2Test.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/days/Day2Test.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/day3/Day3Test.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/days/Day3Test.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/IDay.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/IDay.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/days/Day1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/days/Day1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/days/Day2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/days/Day2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/days/Day3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/days/Day3.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/days/Day4.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/days/Day4.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +69,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Day1Test.testGetAllElves">
+  <component name="RunManager" selected="Kotlin.MainKt">
     <configuration name="Day1Test.testGetAllElves" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AdventOfCode" />
       <extension name="coverage">
@@ -147,8 +142,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Day1Test.testGetAllElves" />
         <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="JUnit.Day1Test.testGetAllElves" />
         <item itemvalue="JUnit.Day4Test" />
         <item itemvalue="JUnit.Day4Test.testGetAmountOfOverlaps" />
         <item itemvalue="JUnit.Day4Test.testGetAmountOfFullOverlaps" />

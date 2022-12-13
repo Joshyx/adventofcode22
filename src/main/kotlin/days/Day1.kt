@@ -1,8 +1,6 @@
 package days
 
 import IDay
-import java.io.File
-import java.nio.file.Files
 
 class Day1 : IDay {
     fun getAllElves(input: String): List<Long> {
@@ -37,13 +35,13 @@ class Day1 : IDay {
         return getTopThreeElves(getInput()).toString()
     }
 
-    override fun getInput(): String {
-        return Files.readString(File("src/main/resources/day1/input.txt").toPath()).trim()
-    }
-
     fun getTopThreeElves(input: String): Long {
         val elves = getAllElves(input).sortedDescending()
 
         return elves[0] + elves[1] + elves[2]
+    }
+
+    override fun getDay(): Int {
+        return 1
     }
 }

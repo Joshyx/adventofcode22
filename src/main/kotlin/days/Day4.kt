@@ -1,8 +1,6 @@
 package days
 
 import IDay
-import java.io.File
-import java.nio.file.Files
 
 class Day4 : IDay {
 
@@ -56,7 +54,7 @@ class Day4 : IDay {
         return getAmountOfOverlaps(getInput()).toString()
     }
 
-    override fun getInput(): String {
-        return Files.readString(File("src/main/resources/day4/input.txt").toPath()).trim()
+    override fun getDay(): Int {
+        return 4
     }
 }

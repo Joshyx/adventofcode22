@@ -1,8 +1,6 @@
 package days
 
 import IDay
-import java.io.File
-import java.nio.file.Files
 
 class Day3 : IDay {
 
@@ -33,7 +31,6 @@ class Day3 : IDay {
 		return getTotalPriority(getInput()).toString()
 	}
 
-
 	fun getCommonItemTypeForGroup(rucksacks: List<String>): Char {
 		return rucksacks[0].toCharArray()
 			.intersect(rucksacks[1].toCharArray().asIterable().toSet())
@@ -59,7 +56,7 @@ class Day3 : IDay {
 		return getTotalItemPriorityForGroups(getInput()).toString()
 	}
 
-	override fun getInput(): String {
-		return Files.readString(File("src/main/resources/day3/input.txt").toPath()).trim()
+	override fun getDay(): Int {
+		return 3
 	}
 }

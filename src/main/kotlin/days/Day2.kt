@@ -1,8 +1,6 @@
 package days
 
 import IDay
-import java.io.File
-import java.nio.file.Files
 
 class Day2 : IDay {
     // A: Rock; B: Paper; C: Scissors (opponent)
@@ -36,10 +34,6 @@ class Day2 : IDay {
 
     override fun getSecondResult(): String {
         return getSecondTotalScore(getInput()).toString()
-    }
-
-    override fun getInput(): String {
-        return Files.readString(File("src/main/resources/day2/input.txt").toPath()).trim()
     }
 
     fun getTotalScore(input: String): Long {
@@ -80,5 +74,9 @@ class Day2 : IDay {
         }
 
         return totalScore
+    }
+
+    override fun getDay(): Int {
+        return 2
     }
 }
