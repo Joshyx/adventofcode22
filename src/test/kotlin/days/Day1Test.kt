@@ -1,5 +1,6 @@
-package day1
+package days
 
+import days.Day1
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test
 import kotlin.test.assertContentEquals

@@ -5,11 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2c29257-9315-4f2b-9bbd-539a233731a3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day3/Day3.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day3/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/day3/Day3Test.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/days/Day4.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day4/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/days/Day4Test.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day1/Day1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/days/Day1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day2/Day2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/days/Day2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day3/Day3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/days/Day3.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/day1/Day1Test.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/days/Day1Test.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/day2/Day2Test.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/days/Day2Test.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/day3/Day3Test.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/days/Day3Test.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,104 +46,112 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "/home/joshi/programming/java/adventofcode22"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/joshi/programming/java/adventofcode22&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/kotlin/days" />
+    </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="days" />
       <recent name="day1" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="days" />
       <recent name="day3" />
       <recent name="day2" />
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MainKt">
-    <configuration name="Day3Test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="adventofcode22" />
+  <component name="RunManager" selected="JUnit.Day1Test.testGetAllElves">
+    <configuration name="Day1Test.testGetAllElves" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AdventOfCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day3.*" />
+          <option name="PATTERN" value="days.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day3" />
-      <option name="MAIN_CLASS_NAME" value="day3.Day3Test" />
+      <option name="PACKAGE_NAME" value="days" />
+      <option name="MAIN_CLASS_NAME" value="days.Day1Test" />
+      <option name="METHOD_NAME" value="testGetAllElves" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day4Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AdventOfCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="days.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="days" />
+      <option name="MAIN_CLASS_NAME" value="days.Day4Test" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day3Test (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="adventofcode22" />
+    <configuration name="Day4Test.testGetAmountOfFullOverlaps" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AdventOfCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day3.*" />
+          <option name="PATTERN" value="days.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day3" />
-      <option name="MAIN_CLASS_NAME" value="day3.Day3Test" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="days" />
+      <option name="MAIN_CLASS_NAME" value="days.Day4Test" />
+      <option name="METHOD_NAME" value="testGetAmountOfFullOverlaps" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day3Test (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="adventofcode22" />
+    <configuration name="Day4Test.testGetAmountOfOverlaps" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AdventOfCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day3.*" />
+          <option name="PATTERN" value="days.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day3" />
-      <option name="MAIN_CLASS_NAME" value="day3.Day3Test" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day3Test (4)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="adventofcode22" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day3" />
-      <option name="MAIN_CLASS_NAME" value="day3.Day3Test" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="days" />
+      <option name="MAIN_CLASS_NAME" value="days.Day4Test" />
+      <option name="METHOD_NAME" value="testGetAmountOfOverlaps" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainKt" />
-      <module name="adventofcode22" />
+      <module name="AdventOfCode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Day1Test.testGetAllElves" />
         <item itemvalue="Kotlin.MainKt" />
-        <item itemvalue="JUnit.Day3Test (4)" />
-        <item itemvalue="JUnit.Day3Test (3)" />
-        <item itemvalue="JUnit.Day3Test (2)" />
-        <item itemvalue="JUnit.Day3Test (1)" />
+        <item itemvalue="JUnit.Day4Test" />
+        <item itemvalue="JUnit.Day4Test.testGetAmountOfOverlaps" />
+        <item itemvalue="JUnit.Day4Test.testGetAmountOfFullOverlaps" />
       </list>
     </recent_temporary>
   </component>

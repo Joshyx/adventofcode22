@@ -1,4 +1,4 @@
-package day2
+package days
 
 import IDay
 import java.io.File
@@ -22,7 +22,8 @@ class Day2 : IDay {
         "C Z" to 3
     )
     // X: lose; Y: draw; Z: win
-    // A: Rock; B: Paper; C: Scissors
+    // A: Rock; B: Paper; C: Scissors (keys)
+    // X: Rock; Y: Paper; Z: Scissors (values)
     private val shapeToPlayLUT = mapOf(
         "X" to mapOf("A" to "Z", "B" to "X", "C" to "Y"),
         "Y" to mapOf("A" to "X", "B" to "Y", "C" to "Z"),

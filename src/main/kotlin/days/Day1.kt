@@ -1,4 +1,4 @@
-package day1
+package days
 
 import IDay
 import java.io.File
@@ -10,15 +10,16 @@ class Day1 : IDay {
 
         var currentElf = 0
         for(calory: String in input.split("\n")) {
-            if(!calory.trim().isNullOrEmpty()) {
 
-                if(calories.count() <= currentElf) {
-                    calories.add(0)
-                }
-                calories[currentElf] += calory.toLong()
-            } else {
+            if(calory.trim().isNullOrEmpty()) {
                 currentElf++
+                continue
             }
+
+            if(calories.count() <= currentElf) {
+                calories.add(0)
+            }
+            calories[currentElf] += calory.toLong()
         }
 
         return calories
