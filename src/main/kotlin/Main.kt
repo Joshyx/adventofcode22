@@ -1,9 +1,19 @@
-import days.Day4
-import days.Day5
+import days.*
 
 fun main() {
 
-    val task: IDay = Day5()
+    val days = listOf(
+        Day1(),
+        Day2(),
+        Day3(),
+        Day4(),
+        Day5(),
+    )
 
-    println(task.getResult())
+    days.forEach {
+        println("Day ${it.getDay()}")
+        println("Result 1: ${it.getResult()}")
+        println("Result 2: ${it.getSecondResult()}")
+        println()
+    }
 }

@@ -1,7 +1,7 @@
 import java.io.File
 import java.nio.file.Files
 
-interface IDay {
+interface Day {
     fun getResult(): String
     fun getSecondResult(): String
     fun getDay(): Int

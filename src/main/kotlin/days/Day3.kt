@@ -1,8 +1,8 @@
 package days
 
-import IDay
+import Day
 
-class Day3 : IDay {
+class Day3 : Day {
 
 	fun getCompartments(rucksack: String): Array<String> {
 		return arrayOf(rucksack.substring(0, rucksack.length / 2), rucksack.substring(rucksack.length / 2))

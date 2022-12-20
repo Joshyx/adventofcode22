@@ -1,8 +1,8 @@
 package days
 
-import IDay
+import Day
 
-class Day4 : IDay {
+class Day4 : Day {
 
     fun doRangesFullyOverlap(ranges: Pair<IntRange, IntRange>): Boolean {
         return ranges.first.first <= ranges.second.first && ranges.first.last >= ranges.second.last

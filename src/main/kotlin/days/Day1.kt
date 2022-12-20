@@ -1,8 +1,8 @@
 package days
 
-import IDay
+import Day
 
-class Day1 : IDay {
+class Day1 : Day {
     fun getAllElves(input: String): List<Long> {
         var calories: MutableList<Long> = mutableListOf()
 

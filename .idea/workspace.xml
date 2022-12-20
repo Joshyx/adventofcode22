@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2c29257-9315-4f2b-9bbd-539a233731a3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/days/Day5.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day5/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/days/Day5Test.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/IDay.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/IDay.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/IDay.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Day.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/days/Day1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/days/Day1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/days/Day2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/days/Day2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/days/Day3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/days/Day3.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/days/Day4.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/days/Day4.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/days/Day5.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/days/Day5.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/day3/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/day3/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/days/Day5Test.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/days/Day5Test.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,16 +45,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/joshi/programming/java/adventofcode22&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "/home/joshi/Projekte/de.denktmit.solr.solr-loader"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -69,7 +74,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Day5Test.testDoInstructionsForNewCrane">
+  <component name="RunManager" selected="Kotlin.MainKt">
     <configuration name="Day5Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AdventOfCode" />
       <extension name="coverage">
@@ -81,22 +86,6 @@
       <option name="PACKAGE_NAME" value="days" />
       <option name="MAIN_CLASS_NAME" value="days.Day5Test" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day5Test.testDoInstructions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AdventOfCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="days.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="days" />
-      <option name="MAIN_CLASS_NAME" value="days.Day5Test" />
-      <option name="METHOD_NAME" value="testDoInstructions" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -133,6 +122,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="days in AdventOfCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AdventOfCode" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/kotlin/days" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainKt" />
       <module name="AdventOfCode" />
@@ -142,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Day5Test.testDoInstructionsForNewCrane" />
         <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="JUnit.Day5Test" />
+        <item itemvalue="JUnit.days in AdventOfCode" />
+        <item itemvalue="JUnit.Day5Test.testDoInstructionsForNewCrane" />
         <item itemvalue="JUnit.Day5Test.testGetResultOfRearrangement" />
-        <item itemvalue="JUnit.Day5Test.testDoInstructions" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +175,7 @@
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/main/kotlin/days/Day5.kt</url>
           <line>23</line>
-          <option name="timeStamp" value="8" />
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,8 +1,8 @@
 package days
 
-import IDay
+import Day
 
-class Day5 : IDay {
+class Day5 : Day {
 
     fun doInstructions(currentStacks: MutableMap<Int, MutableList<Char>>, instructions: List<List<Int>>): MutableMap<Int, MutableList<Char>> {
 
@@ -21,9 +21,9 @@ class Day5 : IDay {
     fun doInstructionsForNewCrane(currentStacks: MutableMap<Int, MutableList<Char>>, instructions: List<List<Int>>): MutableMap<Int, MutableList<Char>> {
 
         for(instruction in instructions) {
-            val crates = currentStacks[instruction[1]]!!.slice(0..instruction[0])
+            val crates = currentStacks[instruction[1]]!!.slice(0 until instruction[0])
 
-            currentStacks[instruction[1]]?.removeAll(crates)
+            currentStacks[instruction[1]] = currentStacks[instruction[1]]?.subList(instruction[0], currentStacks[instruction[1]]!!.size)?.toMutableList() ?: mutableListOf()
             currentStacks[instruction[2]]?.addAll(0, crates)
         }
 

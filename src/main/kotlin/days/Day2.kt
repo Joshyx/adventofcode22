@@ -1,8 +1,8 @@
 package days
 
-import IDay
+import Day
 
-class Day2 : IDay {
+class Day2 : Day {
     // A: Rock; B: Paper; C: Scissors (opponent)
     // X: Rock; Y: Paper; Z: Scissors (you)
     private val possibleScoresForShape = mapOf(
