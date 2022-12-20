@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2c29257-9315-4f2b-9bbd-539a233731a3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/days/Day6.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/days/StringUtils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/days/Day6Test.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/IDay.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Day.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/days/Day1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/days/Day1.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/days/Day2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/days/Day2.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/days/Day3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/days/Day3.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/days/Day4.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/days/Day4.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/days/Day5.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/days/Day5.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/day3/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/day3/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/days/Day5Test.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/days/Day5Test.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +23,7 @@
         <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -90,7 +86,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day5Test.testDoInstructionsForNewCrane" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Day6Test.checkIfSequenceHasUniqueCharacters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AdventOfCode" />
       <extension name="coverage">
         <pattern>
@@ -99,14 +95,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="days" />
-      <option name="MAIN_CLASS_NAME" value="days.Day5Test" />
-      <option name="METHOD_NAME" value="testDoInstructionsForNewCrane" />
+      <option name="MAIN_CLASS_NAME" value="days.Day6Test" />
+      <option name="METHOD_NAME" value="checkIfSequenceHasUniqueCharacters" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day5Test.testGetResultOfRearrangement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Day6Test.getIndexOfFinishedSequence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AdventOfCode" />
       <extension name="coverage">
         <pattern>
@@ -115,8 +111,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="days" />
-      <option name="MAIN_CLASS_NAME" value="days.Day5Test" />
-      <option name="METHOD_NAME" value="testGetResultOfRearrangement" />
+      <option name="MAIN_CLASS_NAME" value="days.Day6Test" />
+      <option name="METHOD_NAME" value="getIndexOfFinishedSequence" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -140,10 +136,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="JUnit.Day6Test.getIndexOfFinishedSequence" />
+        <item itemvalue="JUnit.Day6Test.checkIfSequenceHasUniqueCharacters" />
         <item itemvalue="JUnit.Day5Test" />
         <item itemvalue="JUnit.days in AdventOfCode" />
-        <item itemvalue="JUnit.Day5Test.testDoInstructionsForNewCrane" />
-        <item itemvalue="JUnit.Day5Test.testGetResultOfRearrangement" />
       </list>
     </recent_temporary>
   </component>
